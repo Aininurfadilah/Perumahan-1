@@ -12,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/penghuni" element={<Penghuni />} />
+          <Route path="/tagihan" element={<Tagihan/>}/>
           <Route path="/tambahpenghuni" element={<Tambahpenghuni/>} />
           <Route path="/penghuni/editpenghuni/:id" element={<Editpenghuni/>} />
         </Routes>
