@@ -1,0 +1,409 @@
+.body{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    font-family: "Open Sans";
+}
+
+.img {
+  position: absolute;
+  width: 87px;
+  margin-left: 310px;
+  margin-top: 80px;
+}
+
+h1{
+  position: absolute;
+  width: 359px;
+  height: 42px;
+  left: 410px;
+  top: 89px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  color: #3159c2;
+}
+
+h2{
+  color: white;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.rincian{
+  position: absolute;
+  width: 670px;
+  height: 320px;
+  left: 300px;
+  top: 164px;
+
+  background: #3159c2;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.rincian-title{
+  position: absolute;
+  height: 24px;
+  left: 250px;
+}
+
+.tagihan-air{
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  left: 75px;
+  top: 55px;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tagihan-keamanan{
+  position: absolute;
+  width: 108px;
+  height: 24px;
+  left: 75px;
+  top: 110px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tagihan-kebersihan{
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 75px;
+  top: 165px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.total{
+  position: absolute;
+  width: 51px;
+  height: 24px;
+  left: 75px;
+  top: 238px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.harga-air{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 55px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.harga-keamanan{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 110px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.harga-kebersihan{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 165px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.harga-total{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 238px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.metode{
+  position: absolute;
+  width: 670px;
+  height: 320px;
+  left: 300px;
+  top: 500px;
+
+  background: #3159c2;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px
+}
+
+.Metode-title{
+  position: absolute;
+  width: 250px;
+  height: 24px;
+  left: 210px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.BCA{
+  position: absolute;
+  width: 340px;
+  height: 24px;
+  left: 75px;
+  top: 105px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.BRI{
+  position: absolute;
+  width: 340px;
+  height: 24px;
+  left: 75px;
+  top: 150px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.Mandiri{
+  position: absolute;
+  width: 340px;
+  height: 24px;
+  left: 75px;
+  top: 195px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.form-bayar{
+  position: absolute;
+  width: 657px;
+  height: 657px;
+  left: 1000px;
+  top: 164px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.bayar-title{
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 270px;
+  top: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 99% */
+
+  color: #3159c2;
+}
+
+.rek{
+  position: absolute;
+  width: 168px;
+  height: 24px;
+  left: 50px;
+  top: 75px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #3159c2;
+}
+
+.norek{
+  position: absolute;
+  width: 560px;
+  height: 50px;
+  left: 50px;
+  top: 125px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #3159c2;
+}
+
+.penerima{
+  position: absolute;
+  width: 110px;
+  height: 24px;
+  left: 50px;
+  top: 175px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3159c2;
+}
+
+.nama-penerima{
+  position: absolute;
+  width: 560px;
+  height: 50px;
+  left: 50px;
+  top: 240px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3159c2;
+}
+
+.ket-jml{
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  left: 50px;
+  top: 305px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3159c2;
+}
+
+.jml-bayar{
+  position: absolute;
+  width: 560px;
+  height: 50px;
+  left: 50px;
+  top: 355px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3159c2;
+}
+
+.unggah{
+  position: absolute;
+  width: 300px;
+  height: 24px;
+  left: 50px;
+  top: 420px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #3159c2;
+}
+
+.btn-2 {
+  position: absolute;
+  width: 90px;
+  height: 23px;
+  left: 50px;
+  top: 480px;
+}
+
+.confirm-btn{
+  transition: all 0.3s;
+  position: absolute;
+  width: 574px;
+  height: 58px;
+  left: 50px;
+  top: 570px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  border-color: white;
+  color: white;
+  background: #3159c2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 25px;
+}
